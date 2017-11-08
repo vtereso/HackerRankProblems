@@ -6,6 +6,7 @@ public class Solution
 
     public static void main(String[] args) 
     {
+       //input test values here
        System.out.println(canReach(3,-2,-1,-9));
     }
     
