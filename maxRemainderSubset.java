@@ -1,5 +1,6 @@
 //NP implementation
 //Solution could have been O(n/2)
+//determine the maximal size subset where the sum of any two elements cannot be divisible by k
 public static void main(String[] args)
     {
         Scanner in=new Scanner(System.in);
