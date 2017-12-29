@@ -1,5 +1,5 @@
 //determine if a point x,y can reach  x1,y1
-//x,y can only be modified with the following rules: x,x+y || x+y,x
+//x,y can only be modified with the following rules: x,y = x,x+y || x+y,x
 import java.io.*;
 import java.util.*;
 
