@@ -18,7 +18,9 @@ public static void main(String[] args)
             remainderMap.put(remainder,count);
         }
         //remove "single" elements
+        //two values of remainder 0 would be invalid-add single value
         if(remainderMap.remove(0)!=null)addToEnd++;
+        //two values of remainder k/2 would be invalid-add single value
         if(k%2==0 && remainderMap.remove((k/2))!=null)addToEnd++;
         //find all elements with no collisions, remove and add to accum
         Iterator entries = remainderMap.entrySet().iterator();
