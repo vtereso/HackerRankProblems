@@ -41,8 +41,7 @@ public class SalesHistory {
     }
     
     public void getFullHistory(){
-        //sales.keySet().forEach(SalesHistory::getHistory);
-        for(Date date:sales.keySet())getHistory(date);
+        sales.keySet().forEach(this::getHistory);
     }
     
     public void addToRecord(Date date, Item item){
