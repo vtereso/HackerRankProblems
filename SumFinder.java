@@ -198,7 +198,7 @@ public class SumFinder {
 //        ArrayList<Functor> functors=new ArrayList<>(Arrays.asList(new Functor[]{Functor.ADD}));
 //        ArrayList<Permutation> results=SumFinder.computeSum(9,6750,functors);
         
-        //Defaultes to using all functions in Functor enum
+        //Defaults to using all functions in Functor enum
         ArrayList<Permutation> results=SumFinder.computeSum(9,6750);
         if(results==null || results.isEmpty())System.out.println("No matches found");
         else results.forEach(System.out::println);
