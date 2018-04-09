@@ -87,6 +87,7 @@ enum Functor{
         this.precedence=precedence;
     }
     //MUST override
+    //Could have used switch statement
     public int evaluate(int total, int value){
         return -1;
     }
